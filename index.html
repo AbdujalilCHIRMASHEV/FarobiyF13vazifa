@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FarobiyF13-Vazifa</title>
+</head>
+<style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 0px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(7, 7, 49); 
+      border-radius: -4px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: black; 
+    }
+    </style>
+    <style>
+            @media only screen and (max-width: 600px) {
+            #NAVDIV {
+                    display: none;
+            }
+            .a2 {
+                display: none;
+            }
+            .a3 {
+                display: none;
+            }
+            .images {
+                padding-left: 5px;
+            }
+            .imm {
+                padding-left: -5px;
+            }
+            .carim {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                width: 80%;
+                margin-top: 25px;
+            }
+            .carim img {
+                display: block;
+                margin: auto;
+                max-width: 80%;
+                height: auto;
+            }
+            #burger {
+                display: flex;
+                justify-content: flex-start;
+                padding-left: 20px;
+                font-size: 36px;
+                cursor: pointer;
+                z-index: 10;
+            }
+        }
+    </style>
+    <style>
+        #burger {
+            display: none;
+        }
+    </style>
+<body>
+        <a href="#" class="images">
+            <img src="./images/boxcars.png" alt="FarobiyF13" class="images" />
+        </a>
+        <div id="NAVDIV">
+            <a href="">Home</a>
+            <a href="" class="a1">Listings</a>
+            <a href="" class="a1">Blog</a>
+            <a href="" class="a1">Pages</a>
+            <a href="" class="a1">About</a>
+            <a href=""class="a1">Contact</a>
+            <img src="/images/telimage.png" alt="telicon" id="telicon">
+            <a type="tel" href="+75 123 456 789">+75 123 456 789</a>
+        </div>
+        <div class="a2">
+            <a type="tel" href=""><i class="fa fa-user-o" style="font-size:20px"></i>Sign in</a>
+        </div>
+        <div class="a3">
+            <button class="button" type="submit">
+                Submit Listing
+            </button>
+        </div>
+        <i class="fa fa-navicon" style="font-size:36px" id="burger"></i>
+            <img src="./images/3.jpg" alt="" class="carim">
+ <br><br>
+        <h1>Select a Body Style</h1>
+        <img src="./images/cars.jpg" alt="" style="width: 99%;" class="imm">
+</body>
+</html>
