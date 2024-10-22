@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{margin: 0px;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+*{box-sizing: border-box;  font-family: "DM Sans", sans-serif;}
+.navbar{width: 100%; background-color: white; height: 100px; padding: 0 90px;  z-index: 3455; display: flex; align-items: center; position: fixed; top: 0;} 
+.brand img{height: 26px;}
+.menu{width: 100%; display: flex; justify-content: space-between;}
+.menu_list{display: flex; align-items: center;}
+.menu_list ul{display: flex; align-items: center;  margin: 0; padding: 0;}
+.menu_list img{width: 12px; margin-right: 10px;}
+.menu_list a{display: flex; align-items: center; font-size: 16px; color: #050B20; font-weight: 500;} 
+.menu_list li{margin-left:30px;}
+.menu_btns{display: flex; align-items: center;}
+.menu_btns a{display: flex; align-items: center; font-size: 16px; font-weight: 500; color: #050B20; padding: 16px 26px;}
+
+.menu_btns a img{width: 15px; margin-right: 10px;}
+.btn_border{border: 1px solid #050B20; border-radius: 16px; margin-left: 5px;}
+.main{padding: 100px 90px;}
+.main_box{height: 80vh; position: relative; overflow: hidden;}
+.main img{width: 100%;}
+.main_text{ position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;  display: flex;
+flex-direction: column; justify-content: center; align-items: center;}
+.main_text p{font-size: 16px; color: white;margin-bottom: 30px; margin-top: 0;}
+.main_text h1{font-size: 52px; color: white; margin: 0px;}
+.main_arrows{ padding: 90px 30px; width: 100%; display: flex; justify-content: space-between; }
+.main_arrows button img{height: 24px; width: auto;}
+.main_arrows button{background-color: rgba(255, 255, 255, 0.2); border: none; width: 60px; height:40px;
+     border-radius: 40px; display: flex; align-items: center; justify-content: center; padding: 0px;}
+.main_arrows button:nth-child(1){padding-right: 4px !important;}
+.main_arrows button:nth-child(2){padding-left: 4px !important;}
+
+
+
+
