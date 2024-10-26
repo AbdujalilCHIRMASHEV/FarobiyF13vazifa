@@ -116,11 +116,14 @@ padding-top: 4px;}
  .content-container h1 {
      font-size: 2.5em;
      margin-bottom: 20px;
+     width: 70%;
+     padding-left: 10%;
  }
  
  .content-container p {
-     font-size: 1.2em;
+     font-size: small;
      margin-bottom: 30px;
+     padding-left: 10%;
  }
  
  .cta-button {
@@ -130,7 +133,7 @@ padding-top: 4px;}
      text-decoration: none;
      font-weight: bold;
      border-radius: 10px;
-
+    padding-left: 10%;
     }
  
  /* .cta-button:hover {
